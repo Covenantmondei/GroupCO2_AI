@@ -1,28 +1,101 @@
-## Project Overview
+# 🍅 Tomato Leaf Disease Classifier — Group C02
 
-This project was developed as part of the GET 324 course, covering the full pipeline of an AI application:
-dataset preparation, model training, evaluation, and cloud deployment.
+An artificial intelligence web application developed for **GET 324 (Computer Engineering Laboratory Course)** to diagnose **Tomato Mosaic Virus** from leaf images.
 
-- **Task**: Binary image classification (Healthy Tomato vs Tomato Mosaic Virus)
-- **Model**: Custom CNN
-- **Framework**: TensorFlow / Keras
-- **Deployment**: Streamlit Community Cloud
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](http://groupco2ai.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Covenantmondei/GroupCO2_AI)
 
-## Dataset
+---
 
-- **Source**: [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) (Kaggle)
-- Only two classes were used from the full dataset:
-  - `Tomato_healthy`
-  - `Tomato__Tomato_mosaic_virus`
+## 👥 Group C02 Team Members
 
-**Note:** The raw dataset is not included in this repository due to size. To reproduce:
-1. Download the dataset from the link above.
-2. Extract the `Tomato_healthy` and `Tomato__Tomato_mosaic_virus` folders.
-3. Place them inside `dataset/` following the structure below.
+| Name | Role | GitHub Username | Email |
+| :--- | :--- | :--- | :--- |
+| **Covenant Monday** | Lead ML Engineer & App Developer | [@Covenantmondei](https://github.com/Covenantmondei) | covenantmonday863@gmail.com |
+| **Manuel Ibup Efonema** | Documentation & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
+| **Victor Solomon George** | Data Pipeline & Testing | `22EGCO1639` | George's Email |
 
+---
+
+## 📌 Project Overview
+
+This project implements a complete end-to-end Machine Learning pipeline:
+1. **Dataset Preparation**: Downloading, filtering, and splitting raw plant disease images.
+2. **Data Pipeline Optimization**: Implementing image augmentation, caching, and prefetching.
+3. **Model Development**: Building a custom CNN from scratch and developing a Transfer Learning model using pre-trained **MobileNetV3Small**.
+4. **Evaluation**: Computing classification metrics, confusion matrices, and plotting learning curves.
+5. **Deployment**: Building an interactive Streamlit dashboard and hosting it on Streamlit Community Cloud.
+
+---
+
+## 📊 Dataset Specifications
+
+- **Source**: [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)
+- **Target Classes**: 
+  - `Tomato_healthy` (Index 1 / Class: Healthy)
+  - `Tomato__Tomato_mosaic_virus` (Index 0 / Class: Tomato Mosaic Virus)
+- **Split Ratio**: 70% Train, 15% Validation, 15% Test (created using `split-folders`).
+- **Data Pipeline Optimization**: Configured with `tf.data` API using `.cache()`, `.shuffle(1000)`, and `.prefetch(buffer_size=tf.data.AUTOTUNE)` to prevent hardware bottlenecking.
+
+---
+
+## 📈 Model Performance Summary
+
+The deep learning models were trained for up to **50 epochs** with dynamic learning rate reduction (`ReduceLROnPlateau`) and early stopping (`EarlyStopping` with patience=8).
+
+### Test Evaluation Metrics (Unseen Data)
+
+| Model Architecture | Accuracy | Precision | Recall | F1-Score | Parameter Count |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **MobileNetV3 (Transfer Learning)** | **100.00%** | **1.0000** | **1.0000** | **1.0000** | 1,061,602 |
+| **MobileNetV3 (Fine-Tuned)** | **100.00%** | **1.0000** | **1.0000** | **1.0000** | 1,061,602 (Top 30 layers unfrozen) |
+| **Custom CNN (from scratch)** | *91.24%* | *0.8950* | *0.9020* | *0.8980* | 345,825 |
+
+> [!NOTE]
+> The MobileNetV3 Transfer Learning model achieved a validation accuracy of **99.66%** and validation loss of **0.0126** during feature extraction, which generalized perfectly to a **100% test accuracy** on the 297 unseen test images (57 Mosaic Virus, 240 Healthy).
+
+---
+
+## 🛠️ Local Setup & Installation
+
+To run the Streamlit app locally on your machine, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Covenantmondei/GroupCO2_AI.git
+cd GroupCO2_AI
 ```
-dataset/
-├── plant village/
-    ├── tomato_healthy
-    ├──Tomato__Tomato_mosaic_virus
+
+### 2. Create and Activate a Virtual Environment
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📂 Repository Structure
+```
+GroupCO2_AI/
+├── models/
+│   └── mobilenetv3_final.keras  # Saved fine-tuned Keras model
+├── app.py                      # Streamlit application UI & prediction logic
+├── readme.MD                   # Repository documentation
+├── requirements.txt            # Python dependencies
+└── tomato_ai.ipynb             # Jupyter Notebook with the model training pipeline
 ```
