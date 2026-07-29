@@ -122,7 +122,7 @@ with col1:
     uploaded_file = st.file_uploader("Upload a tomato leaf image", type=["jpg", "jpeg", "png"])
     if uploaded_file:
         img = Image.open(uploaded_file)
-        st.image(img, use_container_width=True, caption="Uploaded Image")
+        st.image(img, width="stretch", caption="Uploaded Image")
     else:
         st.info("Please upload an image to get a prediction.")
 
