@@ -13,8 +13,8 @@
    - *Role*: Machine Learning Architecture, Training Pipeline, Streamlit Web App Development & Cloud Deployment.
 2. **Manuel Ibup Efonema** (GitHub: [@manuelibup](https://github.com/manuelibup))
    - *Role*: Technical Writing, Documentation, Dataset Analysis, and Repository Structure Management.
-3. **Victor Solomon George** (Matric: `22EGCO1639`)
-   - *Role*: Data Preparation, Splitting, Verification, Local Testing, and Validation.
+3. **Libang Success Obi** (GitHub: [@libangsuccess-hub](https://github.com/libangsuccess-hub))
+   - *Role*: Data Preparation and Setup.
 
 ---
 
