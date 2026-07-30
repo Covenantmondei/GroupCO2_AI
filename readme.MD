@@ -11,7 +11,7 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 
 | Name | Role | GitHub Username | Email |
 | :--- | :--- | :--- | :--- |
-| **Covenant Monday** | Lead ML Engineer & App Developer | [@Covenantmondei](https://github.com/Covenantmondei) | covenantmonday863@gmail.com |
+| **Covenant Idorenyin Monday** | Lead ML Engineer & App Developer | [@Covenantmondei](https://github.com/Covenantmondei) | covenantmonday863@gmail.com |
 | **Manuel Ibup Efonema** | Documentation & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
 | **Victor Solomon George** | Data Pipeline & Testing | `22EGCO1639` | George's Email |
 
