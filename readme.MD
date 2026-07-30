@@ -15,8 +15,7 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 | **Manuel Ibup Efonema** | Documentation & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
 | **Victor Solomon George** | Data Pipeline & Testing | `22EGCO1639` | George's Email |
 | **Ekeruke Aniekan Ukpono** | Data Pipeline & Testing, Validation| (https://github.com/greataniekan) | aniekanukpono9@gmail.com |
-
-| **Libang Success Obi** | Data prep. and setup| @libangsuccess-hub | libangsuccess@gmail.com |
+| **Libang Success Obi** | Data prep. and setuo | [@libangsuccess-hub](https://github.com/libangsuccess) | libangsuccess@gmail.com |
 
 ---
 
