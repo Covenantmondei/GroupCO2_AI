@@ -9,12 +9,24 @@
 
 ### 👥 Group Members & Contributions
 
-1. **Covenant Monday** (GitHub: [@Covenantmondei](https://github.com/Covenantmondei))
-   - *Role*: Machine Learning Architecture, Training Pipeline, Streamlit Web App Development & Cloud Deployment.
-2. **Manuel Ibup Efonema** (GitHub: [@manuelibup](https://github.com/manuelibup))
-   - *Role*: Technical Writing, Documentation, Dataset Analysis, and Repository Structure Management.
-3. **Libang Success Obi** (GitHub: [@libangsuccess-hub](https://github.com/libangsuccess-hub))
-   - *Role*: Data Preparation and Setup.
+1. **Covenant Idorenyin Monday** (Reg. No: `23/EG/CO/030` | GitHub: [@Covenantmondei](https://github.com/Covenantmondei))
+   - *Role*: Machine Learning Architecture, Training Pipeline, Streamlit Web App Development, and Cloud Deployment.
+2. **Manuel Ibup Efonema** (Reg. No: `23/EG/CO/130` | GitHub: [@manuelibup](https://github.com/manuelibup))
+   - *Role*: Technical Report Writing, Methodology Analysis, Documentation Lead, and Git Repository Maintenance.
+3. **Etim Victory Paul** (Reg. No: `23/EG/CO/040` | GitHub: [@Vinel-Ux](https://github.com/Vinel-Ux))
+   - *Role*: Streamlit User Interface (UI) Design, Custom CSS Styling, and Frontend-Backend Integration.
+4. **Libang Success Obi** (Reg. No: `23/EG/CO/010` | GitHub: [@libangsuccess-hub](https://github.com/libangsuccess-hub))
+   - *Role*: Dataset Sourcing, Verification, Split-Folder Operations, and Data Pipeline Optimization.
+5. **Ekeruke Aniekan Ukpono** (Reg. No: `23/EG/CO/110` | GitHub: [@greataniekan](https://github.com/greataniekan))
+   - *Role*: Model Training, Hyperparameter Tuning, Callback Construction, and Optimization Monitoring.
+6. **Okon Imoh Patrick** (Reg. No: `23/EG/CO/060` | Email: `imohpatrick17@gmail.com`)
+   - *Role*: Model Verification, Test Dataset Evaluation, Confusion Matrix Testing, and Quality Assurance.
+7. **Bassey Nora Bassey** (Reg. No: `23/EG/CO/070` | GitHub: [@basseynora](https://github.com/basseynora))
+   - *Role*: Exploratory Data Analysis (EDA), Image Augmentation Testing, and Performance Visualization.
+8. **Abasiodiong Effiong Ita** (Reg. No: `23/EG/CO/090` | Email: `effiongabasiodiong3@gmail.com`)
+   - *Role*: System Integration Testing, Local Environment Validation, and Performance Review Support.
+9. **Abasi-ifreke Ukpong Obot** (Reg. No: `23/EG/CO/020` | GitHub: [@Abasifreke12](https://github.com/Abasifreke12))
+   - *Role*: Model Deployment Assistant, User Interface (UI) Testing, and Code Verification.
 
 ---
 

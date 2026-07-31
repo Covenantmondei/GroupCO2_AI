@@ -9,12 +9,17 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 
 ## 👥 Group C02 Team Members
 
-| Name | Role | GitHub Username | Email |
-| :--- | :--- | :--- | :--- |
-| **Covenant Idorenyin Monday** | Lead ML Engineer & App Developer | [@Covenantmondei](https://github.com/Covenantmondei) | covenantmonday863@gmail.com |
-| **Manuel Ibup Efonema** | Documentation & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
-| **Libang Success Obi** | Data prep. and setuo | @libangsuccess-hub | libangsuccess@gmail.com |
-| **Ekeruke Aniekan Ukpono** | Data Pipeline & Testing, Validation| (https://github.com/greataniekan) | aniekanukpono9@gmail.com |
+| Name | Registration No. | Role | GitHub | Email |
+| :--- | :---: | :--- | :---: | :--- |
+| **Covenant Idorenyin Monday** | `23/EG/CO/030` | Lead ML Engineer (Transfer Learning & Cloud Deployment) | [@Covenantmondei](https://github.com/Covenantmondei) | covenantmonday863@gmail.com |
+| **Manuel Ibup Efonema** | `23/EG/CO/130` | Project Coordinator, Git Version Control & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
+| **Etim Victory Paul** | `23/EG/CO/040` | Frontend Developer (Streamlit Web App & CSS Theme Design) | [@Vinel-Ux](https://github.com/Vinel-Ux) | - |
+| **Libang Success Obi** | `23/EG/CO/010` | Data Pipeline Engineer (Splits, Caching, Shuffle & Prefetch) | [@libangsuccess-hub](https://github.com/libangsuccess-hub) | - |
+| **Ekeruke Aniekan Ukpono** | `23/EG/CO/110` | CNN Architect (Custom 3-Block CNN Design & Baseline Training) | [@greataniekan](https://github.com/greataniekan) | - |
+| **Okon Imoh Patrick** | `23/EG/CO/060` | QA & Model Evaluation Specialist (Metrics & Confusion Matrices) | - | imohpatrick17@gmail.com |
+| **Bassey Nora Bassey** | `23/EG/CO/070` | EDA & Data Augmentation Analyst (Preprocessing & Visualizations) | [@basseynora](https://github.com/basseynora) | - |
+| **Abasiodiong Effiong Ita** | `23/EG/CO/090` | System Integration & Local Testing Support | - | effiongabasiodiong3@gmail.com |
+| **Abasi-ifreke Ukpong Obot** | `23/EG/CO/020` | Model Deployment Assistant & UI Testing | [@Abasifreke12](https://github.com/Abasifreke12) | - |
 
 ---
 
