@@ -15,7 +15,7 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 | **Manuel Ibup Efonema** | `23/EG/CO/130` | Project Coordinator, Git Version Control & Technical Writer | [@manuelibup](https://github.com/manuelibup) | manuelibup@gmail.com |
 | **Etim Victory Paul** | `23/EG/CO/040` | Frontend Developer (Streamlit Web App & CSS Theme Design) | [@Vinel-Ux](https://github.com/Vinel-Ux) | - |
 | **Libang Success Obi** | `23/EG/CO/010` | Data Pipeline Engineer (Splits, Caching, Shuffle & Prefetch) | [@libangsuccess-hub](https://github.com/libangsuccess-hub) | - |
-| **Ekeruke Aniekan Ukpono** | `23/EG/CO/110` | CNN Architect (Custom 3-Block CNN Design & Baseline Training) | [@greataniekan](https://github.com/greataniekan) | aniekanukpono9@gmail.com |
+| **Ekeruke Aniekan Ukpono** | `23/EG/CO/110` | CNN Architect (Custom 3-Block CNN Design & Baseline Training) | [@greataniekan](https://github.com/greataniekan) | - |
 | **Okon Imoh Patrick** | `23/EG/CO/060` | QA & Model Evaluation Specialist (Metrics & Confusion Matrices) | - | imohpatrick17@gmail.com |
 | **Bassey Nora Bassey** | `23/EG/CO/070` | EDA & Data Augmentation Analyst (Preprocessing & Visualizations) | [@basseynora](https://github.com/basseynora) | - |
 | **Abasiodiong Effiong Ita** | `23/EG/CO/090` | System Integration & Local Testing Support | - | effiongabasiodiong3@gmail.com |
