@@ -21,6 +21,8 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 | **Effiong Abasiodiong Ita** | `23/EG/CO/090` | System Integration & Local Testing Support | - | effiongabasiodiong3@gmail.com |
 | **Abasi-ifreke Ukpong Obot** | `23/EG/CO/020` | Model Deployment Assistant & UI Testing | [@Abasifreke12](https://github.com/Abasifreke12) | - |
 | **Ediomo Godwin Udontah** | `23/EG/CO/050` | Model Hyperparameter Tuning & Validation Support | [@01Ediomo](https://github.com/01Ediomo) | - |
+| **Audu Osiozemokhai Destiny** | `24/EG/CO/410` | Statistician / Quantitative Analyst | [@i-amaod](https://github.com/i-amaod) | - |
+
 
 ---
 
