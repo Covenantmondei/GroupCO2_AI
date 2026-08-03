@@ -1,4 +1,4 @@
-# 🍅 Tomato Leaf Disease Classifier — Group C02
+# Tomato Leaf Disease Classifier — Group C02
 
 An artificial intelligence web application developed for **GET 324 (Computer Engineering Laboratory Course)** to diagnose **Tomato Mosaic Virus** from leaf images.
 
@@ -7,7 +7,7 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 
 ---
 
-## 👥 Group C02 Team Members
+## Group C02 Team Members
 
 | Name | Registration No. | Role | GitHub | Email |
 | :--- | :---: | :--- | :---: | :--- |
@@ -18,12 +18,13 @@ An artificial intelligence web application developed for **GET 324 (Computer Eng
 | **Ekeruke Aniekan Ukpono** | `23/EG/CO/110` | CNN Architect (Custom 3-Block CNN Design & Baseline Training) | [@greataniekan](https://github.com/greataniekan) | - |
 | **Okon Imoh Patrick** | `23/EG/CO/060` | QA & Model Evaluation Specialist (Metrics & Confusion Matrices) | - | imohpatrick17@gmail.com |
 | **Bassey Nora Bassey** | `23/EG/CO/070` | EDA & Data Augmentation Analyst (Preprocessing & Visualizations) | [@basseynora](https://github.com/basseynora) | - |
-| **Abasiodiong Effiong Ita** | `23/EG/CO/090` | System Integration & Local Testing Support | - | effiongabasiodiong3@gmail.com |
+| **Effiong Abasiodiong Ita** | `23/EG/CO/090` | System Integration & Local Testing Support | - | effiongabasiodiong3@gmail.com |
 | **Abasi-ifreke Ukpong Obot** | `23/EG/CO/020` | Model Deployment Assistant & UI Testing | [@Abasifreke12](https://github.com/Abasifreke12) | - |
+| **Ediomo Godwin Udontah** | `23/EG/CO/050` | Model Hyperparameter Tuning & Validation Support | [@01Ediomo](https://github.com/01Ediomo) | - |
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a complete end-to-end Machine Learning pipeline:
 1. **Dataset Preparation**: Downloading, filtering, and splitting raw plant disease images.
@@ -34,7 +35,7 @@ This project implements a complete end-to-end Machine Learning pipeline:
 
 ---
 
-## 📊 Dataset Specifications
+## Dataset Specifications
 
 - **Source**: [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)
 - **Target Classes**: 
@@ -45,7 +46,7 @@ This project implements a complete end-to-end Machine Learning pipeline:
 
 ---
 
-## 📈 Model Performance Summary
+## Model Performance Summary
 
 The deep learning models were trained for up to **50 epochs** with dynamic learning rate reduction (`ReduceLROnPlateau`) and early stopping (`EarlyStopping` with patience=8).
 
@@ -62,7 +63,7 @@ The deep learning models were trained for up to **50 epochs** with dynamic learn
 
 ---
 
-## 🛠️ Local Setup & Installation
+## Local Setup & Installation
 
 To run the Streamlit app locally on your machine, follow these steps:
 
@@ -95,7 +96,7 @@ streamlit run app.py
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 GroupCO2_AI/
 ├── models/

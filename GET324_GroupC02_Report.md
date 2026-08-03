@@ -23,10 +23,12 @@
    - *Role*: Model Verification, Test Dataset Evaluation, Confusion Matrix Testing, and Quality Assurance.
 7. **Bassey Nora Bassey** (Reg. No: `23/EG/CO/070` | GitHub: [@basseynora](https://github.com/basseynora))
    - *Role*: Exploratory Data Analysis (EDA), Image Augmentation Testing, and Performance Visualization.
-8. **Abasiodiong Effiong Ita** (Reg. No: `23/EG/CO/090` | Email: `effiongabasiodiong3@gmail.com`)
+8. **Effiong Abasiodiong Ita** (Reg. No: `23/EG/CO/090` | Email: `effiongabasiodiong3@gmail.com`)
    - *Role*: System Integration Testing, Local Environment Validation, and Performance Review Support.
 9. **Abasi-ifreke Ukpong Obot** (Reg. No: `23/EG/CO/020` | GitHub: [@Abasifreke12](https://github.com/Abasifreke12))
    - *Role*: Model Deployment Assistant, User Interface (UI) Testing, and Code Verification.
+10. **Ediomo Godwin Udontah** (Reg. No: `23/EG/CO/050` | GitHub: [@01Ediomo](https://github.com/01Ediomo))
+    - *Role*: Model Hyperparameter Tuning, Parameter Evaluation, and Validation Support.
 
 ---
 
